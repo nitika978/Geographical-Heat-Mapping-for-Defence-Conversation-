@@ -358,7 +358,7 @@ kpi_values = [
     ("HOTSPOTS", str(hotspots)),
     ("HIGH ACTIVITY", str(high)),
     ("ELEVATED", str(elevated)),
-    ("STATES & UNIONS"str(len(summary)))
+    ("STATES & UNIONS",str(len(summary)))
 ]
 
 for col, (label, value) in zip([k1,k2,k3,k4,k5], kpi_values):
