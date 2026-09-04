@@ -228,7 +228,7 @@ with f3:
 
 with f4:
     all_states = sorted(df["State"].unique())
-    selected_states = st.multiselect("State & UNIONS", all_states, default=all_states)
+    selected_states = st.multiselect("State & Unions", all_states, default=all_states)
 
 st.markdown('</div>', unsafe_allow_html=True)
 
@@ -358,7 +358,7 @@ kpi_values = [
     ("HOTSPOTS", str(hotspots)),
     ("HIGH ACTIVITY", str(high)),
     ("ELEVATED", str(elevated)),
-    ("STATES & UNION TERRITORIES ANALYSED", str(len(summary)))
+    ("STATES & UNIONS str(len(summary)))
 ]
 
 for col, (label, value) in zip([k1,k2,k3,k4,k5], kpi_values):
